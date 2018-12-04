@@ -1,0 +1,404 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jwebmp</groupId>
+    <artifactId>jwebmp-bom</artifactId>
+    <version>0.0.0_0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>JWebMP BOM</name>
+    <description>The BOM for JWebMP</description>
+    <url>https://jwebmp.com</url>
+
+	<properties>
+        <jwebmp.runtime.classifier></jwebmp.runtime.classifier>
+        <jwebmp.group.suffix></jwebmp.group.suffix>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>json</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>aopalliance-core</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>jwebmp-interception</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>uadetector-core</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>uadetector-resources</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>jwebmp-log-master</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.inject.extensions</groupId>
+                <artifactId>guice-servlet</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-servlets</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.inject.extensions</groupId>
+                <artifactId>guice-persist</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-persistence</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <!-- Jackson Support-->
+            <dependency>
+                <groupId>com.jwebmp.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-persistence-hibernateproperties-reader</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-persistence</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-persistence-jpa</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>guiced-persistence-systemproperties-reader</artifactId>
+                <version>${project.version}</version>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <!--<optional>true</optional>-->
+                <type>jar</type>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>btm</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+                <classifier>${jwebmp.runtime.classifier}</classifier>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javax.transaction</groupId>
+                        <artifactId>jta</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+
+
+
+        </dependencies>
+    </dependencyManagement>
+
+    <licenses>
+        <license>
+            <name>GPL 3</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Marc Magon</name>
+        <url>http://jwebmp.com</url>
+    </organization>
+
+    <scm>
+        <url>https://github.com/GedMarc?tab=repositories</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>GedMarc</id>
+            <name>Marc Magon</name>
+            <email>marc.magon@gmail.com</email>
+            <url>https://github.com/GedMarc</url>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>Jira</system>
+        <url>https://www.jwebmp.com/jira</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>TeamCity</system>
+        <url>http://jwebmp.com/teamcity</url>
+    </ciManagement>
+
+    <profiles>
+        <profile>
+            <id>jwebmp-distribution</id>
+            <activation>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>jwebmp-snapshot</id>
+                    <name>JWebMPArtifactory-snapshots</name>
+                    <url>https://jwebmp.com/artifactory/libs-snapshot-local</url>
+                </snapshotRepository>
+                <repository>
+                    <id>jwebmp-release</id>
+                    <name>JWebMPArtifactory-releases</name>
+                    <url>https://jwebmp.com/artifactory/libs-release-local</url>
+                </repository>
+            </distributionManagement>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                                <configuration>
+                                    <passphrase>${gpg.passphrase}</passphrase>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+        <profile>
+            <id>sonartype-distribution</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>sonar-snapshot</id>
+                    <name>SonarType-snapshots</name>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>sonar-release</id>
+                    <name>SonarType-releases</name>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                                <configuration>
+                                    <passphrase>${gpg.passphrase}</passphrase>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <!-- This plugin doesn't work inside pluginManagement, for some reason -->
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.3</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>sonar-snapshot</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>jdk8</id>
+            <properties>
+                <jwebmp.group.suffix></jwebmp.group.suffix>
+            </properties>
+            <dependencyManagement>
+                <dependencies>
+
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
+            <id>jdk10</id>
+              <properties>
+                  <jwebmp.group.suffix>.jre10</jwebmp.group.suffix>
+            </properties>
+            <dependencyManagement>
+                <dependencies>
+
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+
+        <profile>
+            <id>jdk11</id>
+              <properties>
+                  <jwebmp.group.suffix>.jre11</jwebmp.group.suffix>
+            </properties>
+            <dependencyManagement>
+                <dependencies>
+
+                </dependencies>
+            </dependencyManagement>
+		</profile>
+		</profiles>
+
+</project>
