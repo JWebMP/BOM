@@ -142,16 +142,6 @@
                 <type>jar</type>
             </dependency>
 
-
-            <dependency>
-                <groupId>com.jwebmp</groupId>
-                <artifactId>guiced-persistence</artifactId>
-                <version>${project.version}</version>
-                <classifier>${jwebmp.runtime.classifier}</classifier>
-                <!--<optional>true</optional>-->
-                <type>jar</type>
-            </dependency>
-
             <dependency>
                 <groupId>com.jwebmp</groupId>
                 <artifactId>javax.inject</artifactId>
