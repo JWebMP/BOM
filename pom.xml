@@ -91,7 +91,7 @@
 
             <!-- Faster XML Until Named (See https://github.com/FasterXML/jackson-modules-base/pull/68 )-->
             <dependency>
-                <groupId>com.jwebmp.jackson.core</groupId>
+                <groupId>com.jwebmp.jackson</groupId>
                 <artifactId>jackson-base</artifactId>
                 <version>${project.version}</version>
                 <classifier>${jwebmp.runtime.classifier}</classifier>
@@ -99,7 +99,7 @@
                 <type>jar</type>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jackson.core</groupId>
+                <groupId>com.jwebmp.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
                 <version>${project.version}</version>
                 <classifier>${jwebmp.runtime.classifier}</classifier>
@@ -115,7 +115,7 @@
                 <type>jar</type>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jackson.core</groupId>
+                <groupId>com.jwebmp.jackson</groupId>
                 <artifactId>jackson-parent</artifactId>
                 <version>${project.version}</version>
                 <classifier>${jwebmp.runtime.classifier}</classifier>
@@ -361,8 +361,6 @@
             </dependency>
 
 
-
-
             <!-- JWebMP Plugins -->
             <dependency>
                 <groupId>com.jwebmp</groupId>
@@ -489,12 +487,6 @@
             <dependency>
                 <groupId>com.jwebmp</groupId>
                 <artifactId>jwebmp-blueimp-fileupload</artifactId>
-                <version>${project.version}</version>
-                <type>jar</type>
-            </dependency>
-            <dependency>
-                <groupId>com.jwebmp</groupId>
-                <artifactId>jwebmp-blueimp-gallery</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
