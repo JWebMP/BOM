@@ -12,7 +12,7 @@
     <url>https://jwebmp.com</url>
 
     <properties>
-        <jwebmp.version>${parent.version}</jwebmp.version>
+        <jwebmp.version>${project.version}</jwebmp.version>
         <!--suppress CheckTagEmptyBody -->
         <jwebmp.runtime.classifier></jwebmp.runtime.classifier>
         <!--suppress CheckTagEmptyBody -->
@@ -149,7 +149,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.fasterxml.jackson.module</groupId>
+                <groupId>com.jwebmp.jpms.jackson.module</groupId>
                 <artifactId>jackson-module-guice</artifactId>
                 <version>${jwebmp.version}</version>
                 <type>jar</type>
@@ -254,7 +254,6 @@
                 <groupId>com.jwebmp.inject.extensions</groupId>
                 <artifactId>guice-throwingproviders</artifactId>
                 <version>${jwebmp.version}</version>
-                
                 <type>jar</type>
             </dependency>
 
@@ -278,9 +277,20 @@
                 <type>jar</type>
             </dependency>
 
-
-
-
+            <!-- Guiced EE-->
+            <dependency>
+                <groupId>com.jwebmp.guicedee</groupId>
+                <artifactId>jwebmp-log-master</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.guicedee</groupId>
+                <artifactId>guiced-injection</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            
 
 
         </dependencies>
