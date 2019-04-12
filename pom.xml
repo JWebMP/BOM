@@ -433,7 +433,20 @@
                 <type>jar</type>
             </dependency>
 
+            <!-- JWebMP-->
+            <dependency>
+                <groupId>com.jwebmp.core</groupId>
+                <artifactId>jwebmp-testlib</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.core</groupId>
+                <artifactId>jwebmp-interception</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
