@@ -1188,6 +1188,9 @@
         <profile>
             <id>enable-plugins</id>
         </profile>
+        <profile>
+            <id>enable-examples</id>
+        </profile>
     </profiles>
 
 </project>
