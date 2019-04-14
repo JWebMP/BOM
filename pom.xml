@@ -464,6 +464,32 @@
                 <type>jar</type>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-plugins-angular-parent</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.bootstrap</groupId>
+                <artifactId>jwebmp-plugins-bootstrap-parent</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-plugins-jquery-parent</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-plugins-ion-parent</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
             <!-- Angular JS -->
 
             <dependency>
@@ -483,6 +509,121 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-auto-expand</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-auto-focus</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-file-upload</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-ion-slider</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-pretty-checkboxes</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-progress-button-styles</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-route</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-scroll-position</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-slim-scroll</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-touch</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-track-width</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-ui-zoom</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+
+            <!-- Javascript Plugins -->
+            <dependency>
+                <groupId>com.jwebmp.plugins.javascript</groupId>
+                <artifactId>jwebmp-easing-effects</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.javascript</groupId>
+                <artifactId>jwebmp-globalize</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+
+
+            <!-- JQuery Plugins-->
+            <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-jquery-ui</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <!-- Bootstrap Plugins -->
+            <dependency>
+                <groupId>com.jwebmp.plugins.bootstrap</groupId>
+                <artifactId>jwebmp-bootstrap4</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <!-- Ion Framework Plugins -->
+            <dependency>
+                <groupId>com.jwebmp.plugins.ion</groupId>
+                <artifactId>jwebmp-ion-range-slider</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.ion</groupId>
+                <artifactId>jwebmp-ion-icons</artifactId>
                 <version>${jwebmp.version}</version>
                 <type>jar</type>
             </dependency>
