@@ -455,6 +455,21 @@
                 <type>jar</type>
             </dependency>
 
+            <!-- Plugins -->
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>jwebmp-plugins-modules</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>jwebmp-plugins-angular-parent</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
