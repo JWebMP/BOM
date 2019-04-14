@@ -464,12 +464,31 @@
                 <type>jar</type>
             </dependency>
 
+            <!-- Angular JS -->
+
             <dependency>
-                <groupId>com.jwebmp.plugins</groupId>
-                <artifactId>jwebmp-plugins-angular-parent</artifactId>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-plugins-angularjs</artifactId>
                 <version>${jwebmp.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-animate</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-auto-expand</artifactId>
+                <version>${jwebmp.version}</version>
+                <type>jar</type>
+            </dependency>
+
+
+
 
         </dependencies>
     </dependencyManagement>
