@@ -534,10 +534,11 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
-                <artifactId>jwebmp-angular-auto-expand</artifactId>
+                <artifactId>jwebmp-angular-animated-change</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-auto-focus</artifactId>
@@ -578,6 +579,12 @@
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-angular-sanitize</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-scroll-position</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -612,6 +619,13 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>jwebmp-ng-slim-scroll</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
 
             <!-- Javascript Plugins -->
             <dependency>
@@ -675,8 +689,22 @@
                 <type>jar</type>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.plugins.javascript</groupId>
+                <artifactId>jwebmp-dynamic-source-code-viewer</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
 
             <!-- JQuery Plugins-->
+            <dependency>
+                <groupId>com.jwebmp.plugins.javascript</groupId>
+                <artifactId>jwebmp-bit6</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-ui</artifactId>
@@ -754,6 +782,16 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-spectrum-colour-picker</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+
+
 
 
 
@@ -871,6 +909,13 @@
                 <type>jar</type>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.plugins.iconsets</groupId>
+                <artifactId>jwebmp-glyphicons</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
             <!-- Forms Plugins -->
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
@@ -890,15 +935,12 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
-
-
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-quickforms</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
-
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-smart-wizard</artifactId>
@@ -1209,6 +1251,10 @@
         <profile>
             <id>enable-examples</id>
         </profile>
+        <profile>
+            <id>enable-apps</id>
+        </profile>
+
     </profiles>
 
 </project>
