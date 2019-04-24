@@ -44,6 +44,13 @@
 
             <dependency>
                 <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>javax.transaction</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
                 <artifactId>json</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
