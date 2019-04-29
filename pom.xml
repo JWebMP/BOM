@@ -1042,6 +1042,24 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <!-- Security -->
+            <dependency>
+                <groupId>com.jwebmp.plugins.security</groupId>
+                <artifactId>jwebmp-plugins-security-parent</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.security</groupId>
+                <artifactId>jwebmp-plugins-local-storage-security</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.security</groupId>
+                <artifactId>jwebmp-plugins-ip-geography-security</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
