@@ -35,19 +35,62 @@
                 <type>jar</type>
             </dependency>
 
-     <!--       <dependency>
+          <dependency>
                 <groupId>com.jwebmp.thirdparty</groupId>
                 <artifactId>javax.activation</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
--->
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jakarta.activation</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.thirdparty</groupId>
                 <artifactId>javax.transaction</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.jpms.sqlserver</groupId>
+                <artifactId>mssql-jdbc</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.jcache</groupId>
+                <artifactId>cache-api</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.jcache</groupId>
+                <artifactId>cache-annotations-ri-common</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.jcache</groupId>
+                <artifactId>cache-annotations-ri-guice</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.jpms.hazelcast</groupId>
+                <artifactId>hazelcast</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.jwebmp.thirdparty</groupId>
