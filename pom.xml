@@ -50,8 +50,15 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.thirdparty</groupId>
-                <artifactId>javax.transaction</artifactId>
+                <groupId>com.jwebmp.thirdparty.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api-parent</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
@@ -70,6 +77,19 @@
                 <type>jar</type>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.faces</groupId>
+                <artifactId>javax.faces</artifactId>
+                <version>${project.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>javax.transaction</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.thirdparty.jcache</groupId>
@@ -77,6 +97,15 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.jms</groupId>
+                <artifactId>javax.jms-api</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.jwebmp.thirdparty.jcache</groupId>
