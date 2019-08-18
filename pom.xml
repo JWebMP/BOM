@@ -192,13 +192,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
-                <version>${project.version}</version>
-
-                <type>jar</type>
-            </dependency>
-            <dependency>
                 <groupId>com.jwebmp.jpms.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
                 <version>${project.version}</version>
@@ -903,6 +896,14 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>malihu-custom-scrollbar</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-date-time-picker</artifactId>
