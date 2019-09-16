@@ -78,7 +78,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.thirdparty.faces</groupId>
+                <groupId>com.jwebmp.thirdparty</groupId>
                 <artifactId>javax.faces</artifactId>
                 <version>${project.version}</version>
                 <scope>provided</scope>
@@ -177,22 +177,22 @@
             </dependency>
 
             <!-- Faster XML Until Named (See https://github.com/FasterXML/jackson-modules-base/pull/68 )-->
-            <dependency>
-                <groupId>com.jwebmp.jpms.jackson</groupId>
+          <!--  <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-base</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson</groupId>
+                <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.core</groupId>
+                <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
                 <version>${project.version}</version>
 
@@ -200,35 +200,35 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.core</groupId>
+                <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.core</groupId>
+                <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.module</groupId>
+                <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-modules-java8</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.datatype</groupId>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
                 <artifactId>jackson-datatype-datetime</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.datatype</groupId>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
                 <artifactId>jackson-datatype-jdk8</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -242,12 +242,12 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.jackson.module</groupId>
+                <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-guice</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
-
+-->
 
             <!-- Guice until there is a named module-info for jlink-->
             <dependency>
@@ -1140,6 +1140,191 @@
                 <version>${project.version}</version>
             </dependency>
 
+
+            <!-- javax side -->
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jakarta.validation-api</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jakarta.websocket-api</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>javassist</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>xml-apis</artifactId>
+                        <groupId>xml-apis</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.el</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.servlet.jsp-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>javax.servlet.jsp</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>javax.servlet.jsp.jstl</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.enterprise.cdi-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.interceptor-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>javax.faces</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.enterprise.cdi-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.gee4j</groupId>
+                <artifactId>jakarta.ejb-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Hibernate -->
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-parent</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>jakarta.persistence-api</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>jpa-parent</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>jboss-logmanager</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-commons-annotations</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jandex</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>classmate</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>dom4j</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -1305,43 +1490,6 @@
         </profile>
 
         <profile>
-            <id>jdk8</id>
-            <properties>
-                <!--suppress CheckTagEmptyBody -->
-                <jwebmp.group.suffix></jwebmp.group.suffix>
-            </properties>
-            <dependencyManagement>
-                <dependencies>
-
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>jdk10</id>
-            <properties>
-                <jwebmp.group.suffix>.jre10</jwebmp.group.suffix>
-            </properties>
-            <dependencyManagement>
-                <dependencies>
-
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-
-        <profile>
-            <id>jdk11</id>
-            <properties>
-                <jwebmp.group.suffix>.jre11</jwebmp.group.suffix>
-            </properties>
-            <dependencyManagement>
-                <dependencies>
-
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-
-
-        <profile>
             <id>jdk12</id>
             <properties>
                 <jwebmp.group.suffix>.jre12</jwebmp.group.suffix>
@@ -1353,10 +1501,6 @@
             </dependencyManagement>
         </profile>
 
-
-        <profile>
-            <id>enable-jackson</id>
-        </profile>
         <profile>
             <id>enable-guice</id>
         </profile>
