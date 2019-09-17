@@ -49,6 +49,7 @@
                 <type>jar</type>
             </dependency>
 
+<!--
             <dependency>
                 <groupId>com.jwebmp.thirdparty.xml.bind</groupId>
                 <artifactId>jakarta.xml.bind-api-parent</artifactId>
@@ -62,6 +63,7 @@
                 <version>${project.version}</version>
                 <type>jar</type>
             </dependency>
+-->
 
             <dependency>
                 <groupId>com.jwebmp.jpms.sqlserver</groupId>
@@ -1276,12 +1278,29 @@
                 <type>jar</type>
                 <version>${project.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.thirdparty.hibernate</groupId>
                 <artifactId>hibernate-core</artifactId>
                 <type>jar</type>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-jpamodelgen</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+                <scope>runtime</scope>
+            </dependency>
+
             <dependency>
                 <groupId>com.jwebmp.thirdparty.hibernate</groupId>
                 <artifactId>jpa-parent</artifactId>
@@ -1300,6 +1319,12 @@
                 <groupId>com.jwebmp.thirdparty.hibernate</groupId>
                 <artifactId>hibernate-commons-annotations</artifactId>
                 <type>jar</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.hibernate</groupId>
+                <artifactId>hibernate-jcache</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -1342,6 +1367,39 @@
                 <artifactId>xnio-nio</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty</groupId>
+                <artifactId>jaxen</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Undertow -->
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.undertow</groupId>
+                <artifactId>undertow-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.undertow</groupId>
+                <artifactId>undertow-parser-generator</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.undertow</groupId>
+                <artifactId>undertow-servlet</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.thirdparty.undertow</groupId>
+                <artifactId>undertow-websockets-jsr</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
