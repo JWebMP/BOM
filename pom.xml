@@ -26,6 +26,7 @@
                 <artifactId>aopalliance-core</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -33,6 +34,7 @@
                 <artifactId>javax.inject</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -40,6 +42,7 @@
                 <artifactId>javax.activation</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -47,6 +50,7 @@
                 <artifactId>jakarta.activation</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -54,6 +58,7 @@
                 <artifactId>mssql-jdbc</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -61,14 +66,15 @@
                 <artifactId>cache-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>javax.faces</artifactId>
                 <version>${project.version}</version>
-                <scope>provided</scope>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -77,6 +83,7 @@
                 <artifactId>javax.transaction</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -84,6 +91,7 @@
                 <artifactId>cache-annotations-ri-common</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -92,6 +100,7 @@
                 <artifactId>javax.jms-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -100,6 +109,7 @@
                 <artifactId>cache-annotations-ri-guice</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -107,6 +117,7 @@
                 <artifactId>hazelcast</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -115,6 +126,7 @@
                 <artifactId>json</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- JPMS Pending Artifacts (Until they do their part or accept the pull requests)-->
@@ -122,10 +134,11 @@
             <!-- Apache -->
             <!-- Apache Commons (Until Named) -->
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -133,64 +146,73 @@
                 <artifactId>guava</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-text</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>apache-poi</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-fileupload</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-math3</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Guice until there is a named module-info for jlink-->
@@ -199,99 +221,114 @@
                 <artifactId>guice-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-bom</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Guice Extensions -->
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>extensions-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-assistedinject</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-dagger-adapter</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-grapher</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-jmx</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-jndi</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-persist</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-servlet</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-spring</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-testlib</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.inject.extensions</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>guice-throwingproviders</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- UA Detector JPMS-->
@@ -300,168 +337,194 @@
                 <artifactId>jwebmp-ua-detector</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>uadetector-core</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>uadetector-resources</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Guiced EE-->
             <dependency>
-                <groupId>com.jwebmp.guicedee</groupId>
+                <groupId>com.jwebmp.jpms.guicedee</groupId>
                 <artifactId>guiced-log-master</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
-                <groupId>com.jwebmp.guicedee</groupId>
+                <groupId>com.jwebmp.jpms.guicedee</groupId>
                 <artifactId>guiced-injection</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Guiced EE Persistence -->
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-btm</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-hibernateproperties-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-c3p0</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-jpa</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-eclipselink-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-ehcache</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-systemproperties-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>guiced-hazelcast</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.persistence</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
                 <artifactId>entity-assist</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Guiced EE Servlets-->
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>servlets-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-rest-services</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets-jsf</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets-request-scoper</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-swagger</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-swagger-ui</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-web-services</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-websockets</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.guicedee.servlets</groupId>
+                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
                 <artifactId>guiced-undertow</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- JWebMP-->
@@ -477,6 +540,7 @@
                 <artifactId>jwebmp-interception</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -484,6 +548,7 @@
                 <artifactId>jwebmp-core</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Plugins -->
@@ -493,6 +558,7 @@
                 <artifactId>jwebmp-plugins-modules</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -500,6 +566,7 @@
                 <artifactId>jwebmp-plugins-angular-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -507,18 +574,21 @@
                 <artifactId>jwebmp-plugins-bootstrap-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-jquery-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-ion-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -526,6 +596,7 @@
                 <artifactId>jwebmp-plugins-blueimp-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
@@ -1083,6 +1154,7 @@
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1090,6 +1162,7 @@
                 <artifactId>jakarta.validation-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1097,20 +1170,15 @@
                 <artifactId>jakarta.websocket-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>javassist</artifactId>
                 <version>${project.version}</version>
-
-                <exclusions>
-                    <exclusion>
-                        <artifactId>xml-apis</artifactId>
-                        <groupId>xml-apis</groupId>
-                    </exclusion>
-                </exclusions>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1118,6 +1186,7 @@
                 <artifactId>jakarta.xml.bind-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1125,178 +1194,170 @@
                 <artifactId>jakarta.el</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.servlet.jsp-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>javax.servlet.jsp</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>javax.servlet.jsp.jstl</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.interceptor-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty</groupId>
-                <artifactId>javax.faces</artifactId>
-
-                <version>${project.version}</version>
-                <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>javax.security.jacc</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.enterprise.cdi-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.ejb-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Hibernate -->
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-parent</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jakarta.persistence-api</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-core</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-validator</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-jpamodelgen</artifactId>
                 <version>${project.version}</version>
-
-                <scope>runtime</scope>
+                <scope>provided</scope>
                 <type>jar</type>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jpa-parent</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jboss-logmanager</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-commons-annotations</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.hibernate</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>hibernate-jcache</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>jandex</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>classmate</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>dom4j</artifactId>
-
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -1305,6 +1366,7 @@
                 <artifactId>xnio-all</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1312,6 +1374,7 @@
                 <artifactId>xnio-api</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
@@ -1319,6 +1382,7 @@
                 <artifactId>xnio-nio</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
@@ -1327,35 +1391,40 @@
                 <artifactId>jaxen</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- Undertow -->
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.undertow</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>undertow-core</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.undertow</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>undertow-parser-generator</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.undertow</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>undertow-servlet</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.thirdparty.undertow</groupId>
+                <groupId>com.jwebmp.jpms.thirdparty</groupId>
                 <artifactId>undertow-websockets-jsr</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
 
