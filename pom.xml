@@ -218,7 +218,7 @@
             <!-- Guice until there is a named module-info for jlink-->
             <dependency>
                 <groupId>com.jwebmp.jpms.thirdparty</groupId>
-                <artifactId>guice-parent</artifactId>
+                <artifactId>guice-parent-holder</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
@@ -356,7 +356,7 @@
 
             <!-- Guiced EE-->
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee</groupId>
+                <groupId>com.guicedee</groupId>
                 <artifactId>guiced-log-master</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -365,7 +365,7 @@
 
 
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee</groupId>
+                <groupId>com.guicedee</groupId>
                 <artifactId>guiced-injection</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -374,7 +374,7 @@
 
             <!-- Guiced EE Persistence -->
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -382,35 +382,35 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>btm</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-btm</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-hibernateproperties-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-c3p0</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-jpa</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -418,35 +418,35 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-eclipselink-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-ehcache</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-persistence-systemproperties-reader</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>guiced-hazelcast</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.persistence</groupId>
+                <groupId>com.guicedee.persistence</groupId>
                 <artifactId>entity-assist</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -455,14 +455,14 @@
 
             <!-- Guiced EE Servlets-->
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>servlets-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -470,7 +470,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-rest-services</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
@@ -478,49 +478,49 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets-jsf</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-servlets-request-scoper</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-swagger</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-swagger-ui</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-web-services</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-websockets</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
                 <scope>compile</scope>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.jpms.guicedee.servlets</groupId>
+                <groupId>com.guicedee.servlets</groupId>
                 <artifactId>guiced-undertow</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
