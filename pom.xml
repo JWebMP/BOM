@@ -39,7 +39,7 @@
                 <artifactId>jwebmp-interception</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
 
             <dependency>
@@ -47,7 +47,7 @@
                 <artifactId>jwebmp-core</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
 
             <!-- Plugins -->
@@ -57,7 +57,7 @@
                 <artifactId>jwebmp-plugins-modules</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
 
             <dependency>
@@ -65,7 +65,7 @@
                 <artifactId>jwebmp-plugins-angular-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
 
             <dependency>
@@ -73,21 +73,21 @@
                 <artifactId>jwebmp-plugins-bootstrap-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-jquery-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-ion-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
 
             <dependency>
@@ -95,7 +95,7 @@
                 <artifactId>jwebmp-plugins-blueimp-parent</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
-                <scope>compile</scope>
+                
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
