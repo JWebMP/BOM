@@ -640,6 +640,12 @@
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.security</groupId>
+                <artifactId>jwebmp-plugins-session-storage-security</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.security</groupId>
                 <artifactId>jwebmp-plugins-ip-geography-security</artifactId>
                 <version>${project.version}</version>
                 <type>jar</type>
