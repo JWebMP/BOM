@@ -270,6 +270,25 @@
                 <artifactId>jwebmp-jquery-ui</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			
+			   <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-jquery-simplebar</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+			
+			   <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-jquery-waypoints</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+			
+			 <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-jquery-counterup</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+			
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
