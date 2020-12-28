@@ -576,6 +576,13 @@
                 <artifactId>jwebmp-plugins-ip-geography-security</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			
+			<!-- Themes -->
+			   <dependency>
+                <groupId>com.jwebmp.themes</groupId>
+                <artifactId>jwebmp-plugins-themes-minton</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
