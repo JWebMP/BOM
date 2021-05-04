@@ -486,6 +486,11 @@
                 <artifactId>jwebmp-quickforms</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			    <dependency>
+                <groupId>com.jwebmp.plugins.forms</groupId>
+                <artifactId>jwebmp-quickforms-annotations</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-smart-wizard</artifactId>
