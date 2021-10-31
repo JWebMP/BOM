@@ -30,7 +30,7 @@
                 <version>1.2.7</version>
                 <configuration>
                     <flattenMode>bom</flattenMode>
-                    <flattenDependencyMode>direct</flattenDependencyMode>
+                    <flattenDependencyMode>all</flattenDependencyMode>
                     <detail>true</detail>
                     <updatePomFile>true</updatePomFile>
                     <flattenedPomFilename>flatter.pom</flattenedPomFilename>
