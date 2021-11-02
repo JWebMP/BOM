@@ -3,11 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jwebmp</groupId>
-        <artifactId>jwebmp-group</artifactId>
+        <groupId>com.guicedee</groupId>
+        <artifactId>versioner</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
+        <relativePath>Versioner</relativePath>
     </parent>
 
+    <groupId>com.jwebmp</groupId>
     <artifactId>jwebmp-bom</artifactId>
     <packaging>pom</packaging>
 
