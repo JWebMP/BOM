@@ -6,7 +6,7 @@
         <groupId>com.guicedee</groupId>
         <artifactId>versioner</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
-        <relativePath>Versioner</relativePath>
+        <relativePath>../../Guiced-EE/BOM/Versioner</relativePath>
     </parent>
 
     <groupId>com.jwebmp</groupId>
