@@ -112,7 +112,7 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
-                <artifactId>jwebmp-plugins-angularjs</artifactId>
+                <artifactId>angularts</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
 
