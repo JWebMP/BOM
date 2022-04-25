@@ -304,6 +304,12 @@
                 <artifactId>jwebmp-full-calendar</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
+			
+			<dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-full-calendar-pro</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
@@ -440,6 +446,13 @@
                 <artifactId>jwebmp-font-awesome5</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
+			
+			<dependency>
+                <groupId>com.jwebmp.plugins.iconsets</groupId>
+                <artifactId>jwebmp-font-awesome5-pro</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
+			
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-material-design-icons</artifactId>
