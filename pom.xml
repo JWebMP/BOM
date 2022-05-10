@@ -263,6 +263,12 @@
 
             <!-- JQuery Plugins-->
             <dependency>
+                <groupId>com.jwebmp.plugins.jquery</groupId>
+                <artifactId>jwebmp-jquery</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-bit6</artifactId>
                 <version>${guicedee.version}</version>
@@ -497,6 +503,16 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-data-tables</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.forms</groupId>
+                <artifactId>jwebmp-data-tables-bootstrap</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins.forms</groupId>
+                <artifactId>jwebmp-data-tables-dt</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
             <dependency>
