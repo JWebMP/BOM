@@ -115,11 +115,19 @@
                 <artifactId>angularts</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
+			
 			     <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>angularts-client</artifactId>
                 <version>${guicedee.version}</version>
             </dependency>
+			
+			    <dependency>
+                <groupId>com.jwebmp.plugins.angular</groupId>
+                <artifactId>ngselect</artifactId>
+                <version>${guicedee.version}</version>
+            </dependency>
+			
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
