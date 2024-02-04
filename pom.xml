@@ -1,14 +1,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.guicedee</groupId>
-        <artifactId>versioner</artifactId>
-        <version>0.0.0_0-SNAPSHOT</version>
-        <relativePath>../../Guiced-EE/BOM/Versioner</relativePath>
-    </parent>
-
+    
     <groupId>com.jwebmp</groupId>
     <artifactId>jwebmp-bom</artifactId>
     <packaging>pom</packaging>
@@ -17,7 +10,7 @@
     <description>The BOM for JWebMP</description>
     <url>https://jwebmp.com</url>
 
-    <version>0.0.0_0-SNAPSHOT</version>
+    <version>2.0.0-SNAPSHOT</version>
 
     <properties>
         <!--suppress CheckTagEmptyBody -->
@@ -25,13 +18,7 @@
         <!--suppress CheckTagEmptyBody -->
         <jwebmp.group.suffix></jwebmp.group.suffix>
     </properties>
-
-    <build>
-        <plugins>
-
-        </plugins>
-    </build>
-
+    
     <dependencyManagement>
         <dependencies>
 
@@ -39,13 +26,13 @@
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
                 <artifactId>jwebmp-testlib</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
                 <artifactId>jwebmp-core</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
 
@@ -54,57 +41,57 @@
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>jwebmp-plugins-modules</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-plugins-angular-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-plugins-bootstrap-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-jquery-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-ion-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-plugins-blueimp-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
 
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-plugins-iconsets-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-plugins-forms-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-plugins-graphing-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
 
@@ -113,105 +100,105 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>angularts</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			     <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>angularts-client</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			    <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>ngselect</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-animate</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-animated-change</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-auto-focus</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-file-upload</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-ion-slider</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-pretty-checkboxes</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-progress-button-styles</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-route</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-sanitize</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-scroll-position</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-slim-scroll</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-touch</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-track-width</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-angular-ui-zoom</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-text-angular</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>jwebmp-ng-slim-scroll</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
 
@@ -219,58 +206,58 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-easing-effects</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-globalize</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-fastclick</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-modernizr</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-momentjs</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-pace-loader</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-particlesjs</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-plus-as-tab</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-soft-history-change</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-source-prettify</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-dynamic-source-code-viewer</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
 
@@ -278,110 +265,110 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.javascript</groupId>
                 <artifactId>jwebmp-bit6</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-ui</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			   <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-simplebar</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			   <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-waypoints</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			 <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-counterup</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-block-ui</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-full-calendar</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			<dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-full-calendar-pro</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jqui-datetime-picker</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jqui-themes</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jqui-themes-nestable</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jstree</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jqui-layout</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-linear-gradients</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-metro-tiles</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jqui-vertical-timeline</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-toastr</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-spectrum-colour-picker</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
 
@@ -389,49 +376,49 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>malihu-custom-scrollbar</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-date-time-picker</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-dialog4</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-nya-select</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-tags-input4</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-toggle</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootswatch</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.bootstrap</groupId>
                 <artifactId>jwebmp-bootstrap-pro-sidebar</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
 
@@ -439,204 +426,204 @@
             <dependency>
                 <groupId>com.jwebmp.plugins.blueimp</groupId>
                 <artifactId>jwebmp-blueimp-fileupload</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.blueimp</groupId>
                 <artifactId>jwebmp-blueimp-gallery</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Ion Framework Plugins -->
             <dependency>
                 <groupId>com.jwebmp.plugins.ion</groupId>
                 <artifactId>jwebmp-ion-range-slider</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.ion</groupId>
                 <artifactId>jwebmp-ion-icons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Icon Sets-->
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-font-awesome5</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			<dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-font-awesome5-pro</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-material-design-icons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-material-icons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-skycons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-themify-icons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-weathericons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-glyphicons</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Forms Plugins -->
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-bootstrap-quick-forms</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-data-tables</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-data-tables-bootstrap</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-data-tables-dt</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-leafletjs</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-quickforms</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			    <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-quickforms-annotations</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-smart-wizard</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-text-input-effects</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-xeditable</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Graphing -->
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-c3</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-d3</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-easy-pie-chart</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-jqplot</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.graphing</groupId>
                 <artifactId>jwebmp-chartjs</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Effects -->
             <dependency>
                 <groupId>com.jwebmp.plugins.effects</groupId>
                 <artifactId>jwebmp-radial-slider-gem</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.effects</groupId>
                 <artifactId>jwebmp-vertical-timeline-css</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.effects</groupId>
                 <artifactId>jwebmp-waveseffect</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- JQX Widgets-->
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>jwebmp-jqx-widgets</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- Security -->
             <dependency>
                 <groupId>com.jwebmp.plugins.security</groupId>
                 <artifactId>jwebmp-plugins-security-parent</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.security</groupId>
                 <artifactId>jwebmp-plugins-local-storage-security</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.security</groupId>
                 <artifactId>jwebmp-plugins-session-storage-security</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jwebmp.plugins.security</groupId>
                 <artifactId>jwebmp-plugins-ip-geography-security</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 			
 			<!-- Themes -->
 			   <dependency>
                 <groupId>com.jwebmp.themes</groupId>
                 <artifactId>jwebmp-plugins-themes-minton</artifactId>
-                <version>${guicedee.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
         </dependencies>
@@ -678,4 +665,130 @@
         <url>http://jwebmp.com/teamcity</url>
     </ciManagement>
 
+    <profiles>
+        <profile>
+            <id>jwebmp-distribution</id>
+            <activation>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>jwebmp-snapshot</id>
+                    <name>JWebMPArtifactory-snapshots</name>
+                    <url>https://jwebmp.com/artifactory/libs-snapshot-local</url>
+                </snapshotRepository>
+                <repository>
+                    <id>jwebmp-release</id>
+                    <name>JWebMPArtifactory-releases</name>
+                    <url>https://jwebmp.com/artifactory/libs-release-local</url>
+                </repository>
+            </distributionManagement>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <configuration>
+                            <gpgArguments>
+                                <arg>--pinentry-mode</arg>
+                                <arg>loopback</arg>
+                                <arg>--batch</arg>
+                            </gpgArguments>
+                            <passphrase>${gpg.passphrase}</passphrase>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+        <profile>
+            <id>sonartype-distribution</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>sonar-snapshot</id>
+                    <name>SonarType-snapshots</name>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>sonar-release</id>
+                    <name>SonarType-releases</name>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <configuration>
+                            <gpgArguments>
+                                <arg>--pinentry-mode</arg>
+                                <arg>loopback</arg>
+                                <arg>--batch</arg>
+                            </gpgArguments>
+                            <passphrase>${gpg.passphrase}</passphrase>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <executions>
+                            <execution>
+                                <id>default-deploy</id>
+                                <phase>deploy</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <serverId>sonar-snapshot</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                            <stagingProgressTimeoutMinutes>300</stagingProgressTimeoutMinutes>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <version>3.0.0-M1</version>
+                        <configuration>
+                            <skip>true</skip>
+                        </configuration>
+                    </plugin>
+
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
