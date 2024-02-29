@@ -32,6 +32,12 @@
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>com.jwebmp.client</groupId>
+                <artifactId>jwebmp-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!-- JWebMP-->
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
