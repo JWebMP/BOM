@@ -240,8 +240,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-momentjs</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>moment</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -265,8 +265,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-source-prettify</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>prettify</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -291,8 +291,8 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-jquery-ui</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>jquery-ui</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -303,8 +303,8 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-jquery-waypoints</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>waypoints</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -376,8 +376,8 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-toastr</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>toastr</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -390,8 +390,8 @@
 
             <!-- Bootstrap Plugins -->
             <dependency>
-                <groupId>com.jwebmp.plugins.bootstrap</groupId>
-                <artifactId>jwebmp-bootstrap</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>bootstrap</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -620,13 +620,13 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.security</groupId>
-                <artifactId>jwebmp-plugins-local-storage-security</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>localstorage</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.security</groupId>
-                <artifactId>jwebmp-plugins-session-storage-security</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>sessionstorage</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
