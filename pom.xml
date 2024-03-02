@@ -28,7 +28,7 @@
         <!--suppress CheckTagEmptyBody -->
         <jwebmp.group.suffix></jwebmp.group.suffix>
     </properties>
-    
+
     <dependencyManagement>
         <dependencies>
 
@@ -114,23 +114,23 @@
             <!-- Angular JS -->
 
             <dependency>
-                <groupId>com.jwebmp.plugins.angular</groupId>
-                <artifactId>angularts</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>angular</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			     <dependency>
-                <groupId>com.jwebmp.plugins.angular</groupId>
-                <artifactId>angularts-client</artifactId>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>typescript-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			    <dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
                 <artifactId>ngselect</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
+
 
             <dependency>
                 <groupId>com.jwebmp.plugins.angular</groupId>
@@ -295,25 +295,25 @@
                 <artifactId>jwebmp-jquery-ui</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			   <dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-simplebar</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			   <dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-waypoints</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			 <dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-jquery-counterup</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
+
 
             <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
@@ -326,8 +326,8 @@
                 <artifactId>jwebmp-full-calendar</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			<dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.jquery</groupId>
                 <artifactId>jwebmp-full-calendar-pro</artifactId>
                 <version>${project.version}</version>
@@ -468,13 +468,13 @@
                 <artifactId>jwebmp-font-awesome5</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			<dependency>
+
+            <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-font-awesome5-pro</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
+
             <dependency>
                 <groupId>com.jwebmp.plugins.iconsets</groupId>
                 <artifactId>jwebmp-material-design-icons</artifactId>
@@ -541,7 +541,7 @@
                 <artifactId>jwebmp-quickforms</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			    <dependency>
+            <dependency>
                 <groupId>com.jwebmp.plugins.forms</groupId>
                 <artifactId>jwebmp-quickforms-annotations</artifactId>
                 <version>${project.version}</version>
@@ -634,9 +634,9 @@
                 <artifactId>jwebmp-plugins-ip-geography-security</artifactId>
                 <version>${project.version}</version>
             </dependency>
-			
-			<!-- Themes -->
-			   <dependency>
+
+            <!-- Themes -->
+            <dependency>
                 <groupId>com.jwebmp.themes</groupId>
                 <artifactId>jwebmp-plugins-themes-minton</artifactId>
                 <version>${project.version}</version>
