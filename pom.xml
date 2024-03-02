@@ -220,13 +220,13 @@
 
             <!-- Javascript Plugins -->
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-easing-effects</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>easing-effects</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-globalize</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>globalize</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -235,8 +235,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-modernizr</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>modernizr</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -255,8 +255,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.javascript</groupId>
-                <artifactId>jwebmp-plus-as-tab</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>plus-as-tab</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -279,8 +279,8 @@
 
             <!-- JQuery Plugins-->
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-jquery</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>jquery</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
