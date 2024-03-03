@@ -464,14 +464,14 @@
 
             <!-- Icon Sets-->
             <dependency>
-                <groupId>com.jwebmp.plugins.iconsets</groupId>
-                <artifactId>jwebmp-font-awesome5</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>font-awesome</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.iconsets</groupId>
-                <artifactId>jwebmp-font-awesome5-pro</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>font-awesome</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
