@@ -322,14 +322,14 @@
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-full-calendar</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>full-calendar</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.jwebmp.plugins.jquery</groupId>
-                <artifactId>jwebmp-full-calendar-pro</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>full-calendar-pro</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
