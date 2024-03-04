@@ -471,7 +471,7 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
-                <artifactId>font-awesome</artifactId>
+                <artifactId>font-awesome-pro</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -517,18 +517,18 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.forms</groupId>
-                <artifactId>jwebmp-data-tables</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>data-tables</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.forms</groupId>
-                <artifactId>jwebmp-data-tables-bootstrap</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>data-tables-bootstrap</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.forms</groupId>
-                <artifactId>jwebmp-data-tables-dt</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>data-tables-default-theme</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -584,8 +584,8 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.graphing</groupId>
-                <artifactId>jwebmp-chartjs</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>chartjs</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
