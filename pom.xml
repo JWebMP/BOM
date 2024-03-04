@@ -440,13 +440,13 @@
 
             <!-- BlueImp Plugins-->
             <dependency>
-                <groupId>com.jwebmp.plugins.blueimp</groupId>
-                <artifactId>jwebmp-blueimp-fileupload</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>fileupload-jquery</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jwebmp.plugins.blueimp</groupId>
-                <artifactId>jwebmp-blueimp-gallery</artifactId>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>gallery</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
