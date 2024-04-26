@@ -19,7 +19,6 @@
     <version>2.0.0-SNAPSHOT</version>
 
     <properties>
-
         <project.scm.nameUrl>/JWebMP/BOM</project.scm.nameUrl>
         <project.scm.packages>/JWebMP/Packages</project.scm.packages>
 
