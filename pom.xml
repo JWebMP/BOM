@@ -120,6 +120,18 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>bootstrap-angular-forms</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>angular-forms</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>typescript-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
