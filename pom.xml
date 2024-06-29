@@ -37,6 +37,12 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>jwebmp-vertx</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!-- JWebMP-->
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
