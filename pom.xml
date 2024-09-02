@@ -49,6 +49,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>angular-colorpicker</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.jwebmp</groupId>
                 <artifactId>jwebmp-vertx</artifactId>
                 <version>${project.version}</version>
