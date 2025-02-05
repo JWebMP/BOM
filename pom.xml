@@ -135,6 +135,13 @@
 
 
             <dependency>
+                <groupId>com.jwebmp</groupId>
+                <artifactId>jwebmp-rabbitmq</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>web-awesome</artifactId>
                 <version>${project.version}</version>
