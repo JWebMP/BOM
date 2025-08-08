@@ -149,6 +149,12 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>aggrid</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>web-awesome-pro</artifactId>
                 <version>${project.version}</version>
             </dependency>
