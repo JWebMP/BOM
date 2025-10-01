@@ -155,6 +155,24 @@
 
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>aggrid-enterprise</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>agcharts</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>agcharts-enterprise</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>web-awesome-pro</artifactId>
                 <version>${project.version}</version>
             </dependency>
