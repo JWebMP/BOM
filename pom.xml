@@ -53,6 +53,11 @@
                 <artifactId>angular-colorpicker</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>angular-maven-plugin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.jwebmp</groupId>
