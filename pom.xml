@@ -37,7 +37,7 @@
 
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
-                <artifactId>core</artifactId>
+                <artifactId>jwebmp-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
