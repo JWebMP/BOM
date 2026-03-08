@@ -30,20 +30,20 @@
             <!-- ═══════════════════════════════════════════════════════════════ -->
 
             <dependency>
-                <groupId>com.jwebmp.client</groupId>
+                <groupId>com.jwebmp</groupId>
                 <artifactId>jwebmp-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
-                <artifactId>jwebmp-core</artifactId>
+                <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.jwebmp.core</groupId>
-                <artifactId>jwebmp-testlib</artifactId>
+                <artifactId>testlib</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
