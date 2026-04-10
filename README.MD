@@ -46,7 +46,7 @@ Then declare dependencies without versions:
 
 ```kotlin
 dependencies {
-    implementation(platform("com.jwebmp:jwebmp-bom:2.0.0-SNAPSHOT"))
+    implementation(platform("com.jwebmp:jwebmp-bom:2.0.0-RC1"))
 
     implementation("com.jwebmp.core:jwebmp-core")
     // no version needed — managed by the platform
@@ -80,7 +80,7 @@ dependencies {
 ### Angular / TypeScript
 | GroupId | ArtifactId | Description |
 |---------|-----------|-------------|
-| `com.jwebmp.plugins` | `angular` | Angular 20 TypeScript integration |
+| `com.jwebmp.plugins` | `angular` | Angular 21 TypeScript integration |
 | `com.jwebmp.plugins` | `angular-maven-plugin` | Maven plugin for Angular build pipeline |
 | `com.jwebmp.plugins` | `typescript-client` | TypeScript client annotations |
 
