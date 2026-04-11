@@ -46,7 +46,7 @@ Then declare dependencies without versions:
 
 ```kotlin
 dependencies {
-    implementation(platform("com.jwebmp:jwebmp-bom:2.0.0-RC3"))
+    implementation(platform("com.jwebmp:jwebmp-bom:2.0.0-RC4"))
 
     implementation("com.jwebmp.core:jwebmp-core")
     // no version needed — managed by the platform
