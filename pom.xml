@@ -196,6 +196,70 @@
                 <version>${jwebmp.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>themify-icons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>material-icons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>material-design-icons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>weather-icons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>glyphicons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>skycons</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <!-- ═══════════════════════════════════════════════════════════════ -->
+            <!-- Charts & Graphing                                               -->
+            <!-- ═══════════════════════════════════════════════════════════════ -->
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>c3</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>d3</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>jqplot</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>easy-pie-chart</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
             <!-- ═══════════════════════════════════════════════════════════════ -->
             <!-- Effects                                                         -->
             <!-- ═══════════════════════════════════════════════════════════════ -->
@@ -251,6 +315,46 @@
             <dependency>
                 <groupId>com.jwebmp.plugins</groupId>
                 <artifactId>ngx-markdown</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <!-- ═══════════════════════════════════════════════════════════════ -->
+            <!-- Restored Legacy Plugins                                        -->
+            <!-- ═══════════════════════════════════════════════════════════════ -->
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>toastr</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>prettify</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>waypoints</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>plus-as-tab</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>localstorage</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>sessionstorage</artifactId>
                 <version>${jwebmp.version}</version>
             </dependency>
 
