@@ -5,23 +5,45 @@
     <parent>
         <groupId>com.guicedee</groupId>
         <artifactId>versioner</artifactId>
-        <version>2.0.2-SNAPSHOT</version>
+        <version>2.0.2</version>
     </parent>
 
     <groupId>com.jwebmp</groupId>
     <artifactId>jwebmp-bom</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.2</version>
 
     <name>JWebMP BOM</name>
     <description>Bill of Materials for JWebMP — centralizes compatible dependency versions for all JWebMP modules and plugins.</description>
     <url>https://jwebmp.com</url>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/JWebMP/BOM</url>
+        <connection>scm:git:https://github.com/JWebMP/BOM.git</connection>
+        <developerConnection>scm:git:https://github.com/JWebMP/BOM.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>GedMarc</id>
+            <name>Marc Magon</name>
+            <email>marc.magon@gmail.com</email>
+            <url>https://github.com/GedMarc</url>
+        </developer>
+    </developers>
+
     <properties>
         <project.scm.nameUrl>/JWebMP/BOM</project.scm.nameUrl>
         <project.scm.packages>/JWebMP/Packages</project.scm.packages>
-        <guicedee.version>2.0.3-SNAPSHOT</guicedee.version>
-        <jwebmp.version>2.0.0-SNAPSHOT</jwebmp.version>
+        <guicedee.version>2.0.2</guicedee.version>
+        <jwebmp.version>2.0.2</jwebmp.version>
     </properties>
 
     <dependencyManagement>
