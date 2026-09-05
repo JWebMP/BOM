@@ -42,7 +42,7 @@
     <properties>
         <project.scm.nameUrl>/JWebMP/BOM</project.scm.nameUrl>
         <project.scm.packages>/JWebMP/Packages</project.scm.packages>
-        <guicedee.version>2.2.0</guicedee.version>
+        <guicedee.version>2.2.2</guicedee.version>
         <jwebmp.version>2.0.3-SNAPSHOT</jwebmp.version>
     </properties>
 
