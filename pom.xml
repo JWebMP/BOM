@@ -61,6 +61,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>java-generator-client</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jwebmp.plugins</groupId>
+                <artifactId>java-generator</artifactId>
+                <version>${jwebmp.version}</version>
+            </dependency>
 
             <!-- ═══════════════════════════════════════════════════════════════ -->
             <!-- GuicedEE                                                        -->
